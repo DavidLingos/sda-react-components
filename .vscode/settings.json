@@ -1,0 +1,17 @@
+{
+  "editor.renderWhitespace": "all",
+  "editor.renderControlCharacters": true,
+  "breadcrumbs.enabled": true,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.columnSelection": false,
+  "files.eol": "\r\n"
+}
