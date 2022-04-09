@@ -14,6 +14,9 @@ import { ThemeContextProvider } from './context/ThemeContext';
 import { NewsContextProvider } from './context/NewsContext';
 import Weather from './sharedComponents/Weather';
 import PhoneInput from './sharedComponents/PhoneInput';
+import TodoList from './sharedComponents/TodoList';
+import CarForm from './sharedComponents/CarForm';
+import ReactHookFormCarForm from './sharedComponents/CarForm/ReactHookForm';
 
 function App() {
   return (
@@ -37,6 +40,9 @@ function App() {
           <Route path="/search" element={<SearchFilter values={['Banana', 'Apple', 'Pear', 'Ananas']} />} />
           <Route path="/weather" element={<Weather />} />
           <Route path="/phone" element={<PhoneInput />} />
+          <Route path="/todo" element={<TodoList />} />
+          <Route path="/car" element={<CarForm />} />
+          <Route path="/car/react-hook-form" element={<ReactHookFormCarForm />} />
         </Routes>
       </Router>
     </ThemeContextProvider>
