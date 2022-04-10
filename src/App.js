@@ -17,6 +17,7 @@ import PhoneInput from './sharedComponents/PhoneInput';
 import TodoList from './sharedComponents/TodoList';
 import CarForm from './sharedComponents/CarForm';
 import ReactHookFormCarForm from './sharedComponents/CarForm/ReactHookForm';
+import ContactsList from './sharedComponents/ContactsList';
 
 function App() {
   return (
@@ -43,7 +44,7 @@ function App() {
           <Route path="/todo" element={<TodoList />} />
           <Route path="/car" element={<CarForm />} />
           <Route path="/car/react-hook-form" element={<ReactHookFormCarForm />} />
-          efewd
+          <Route path="/contacts" element={<ContactsList />} />
         </Routes>
       </Router>
     </ThemeContextProvider>
